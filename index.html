@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ปุ่มต่างๆ</title>
+    <style>
+        /* การจัดการตำแหน่งเนื้อหา */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            text-align: center; /* ทำให้ข้อความทั้งหมดใน body อยู่กลาง */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* ใช้ความสูงเต็มหน้าจอ */
+            margin: 0; /* ลบ margin พื้นฐาน */
+        }
+
+        /* สไตล์สำหรับปุ่ม */
+        button {
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px;
+            background-color: #f44336; /* เปลี่ยนสีพื้นหลังปุ่มเป็นสีแดง */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            width: 250px; /* ความกว้างของปุ่ม */
+        }
+
+        button:hover {
+            background-color: #d32f2f; /* สีเมื่อเอาเมาส์ไปชี้บนปุ่ม */
+        }
+
+        /* สไตล์สำหรับกล่องของปุ่ม */
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* กำหนดระยะห่างจากหัวข้อ */
+        h1 {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>อาคาร A</h1>
+
+    <!-- กล่องสำหรับปุ่ม -->
+    <div class="button-container">
+        <!-- ปุ่มห้องการเงิน (เปลี่ยนเป็นลิงก์ไปยังหน้าวิดีโอ) -->
+        <a href="video1.html"> <!-- เปลี่ยน URL นี้ไปยังหน้าวิดีโอของคุณ -->
+            <button>ห้องการเงิน</button>
+        </a>
+
+        <!-- ปุ่มห้องวิชาการ -->
+        <a href="video2.html"> <!-- เปลี่ยน URL นี้ไปยังหน้าวิดีโอของคุณ -->
+            <button>ห้องวิชาการ</button>
+        </a>
+
+        <!-- ปุ่มงานทะเบียน -->
+        <a href="video3.html"> <!-- เปลี่ยน URL นี้ไปยังหน้าวิดีโอของคุณ -->
+            <button>งานทะเบียน</button>
+        </a>
+
+        <!-- ปุ่มงาน กยศ. -->
+        <a href="video4.html"> <!-- เปลี่ยน URL นี้ไปยังหน้าวิดีโอของคุณ -->
+            <button>งาน กยศ.</button>
+        </a>
+
+        <!-- ปุ่มสำนักงานคณะบริหารธุรกิจ -->
+        <a href="video5.html"> <!-- เปลี่ยน URL นี้ไปยังหน้าวิดีโอของคุณ -->
+            <button>สำนักงานคณะบริหารธุรกิจ</button>
+        </a>
+    </div>
+
+</body>
+</html>
